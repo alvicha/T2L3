@@ -15,3 +15,5 @@
 8. cat users.txt | grep -v ^[#,_]
 
 9. cat users.txt | grep -v ^[#] | cut -d: -f3
+
+10. sort -r users.txt
