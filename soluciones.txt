@@ -21,3 +21,5 @@
 11. cat users.txt | grep -v ^[#] | cut -d: -f3 | sort -n
 
 12. cat users.txt | grep -v ^[#] | cut -d: -f4 | sort -n
+
+13. cat users.txt | grep -v ^[#] | cut -d: -f1 | sed 's/-/:/'
