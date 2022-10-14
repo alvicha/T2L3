@@ -1,3 +1,5 @@
 1. head -n 10 users.txt
 
 2. tail -n 5 users.txt
+
+3. tail -n +11 users.txt
