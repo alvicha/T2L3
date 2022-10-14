@@ -27,3 +27,5 @@
 14. cat users.txt | grep -v ^[#] | cut -d: -f3,4 | sed '3s/-/:/'
 
 15. sed 's/false/NO/' users.txt
+
+16. sed 's/System Administrator/Administrador del Sistema/' users.txt 
