@@ -25,3 +25,5 @@
 13. cat users.txt | grep -v ^[#] | cut -d: -f1 | sed 's/-/:/'
 
 14. cat users.txt | grep -v ^[#] | cut -d: -f3,4 | sed '3s/-/:/'
+
+15. sed 's/false/NO/' users.txt
