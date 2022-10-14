@@ -28,4 +28,6 @@
 
 15. sed 's/false/NO/' users.txt
 
-16. sed 's/System Administrator/Administrador del Sistema/' users.txt 
+16. sed 's/System Administrator/Administrador del Sistema/' users.txt
+
+17. sed 's/_//' users.txt
