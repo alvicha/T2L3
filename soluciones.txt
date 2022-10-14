@@ -17,3 +17,5 @@
 9. cat users.txt | grep -v ^[#] | cut -d: -f3
 
 10. sort -r users.txt
+
+11. cat users.txt | grep -v ^[#] | cut -d: -f3 | sort -n
