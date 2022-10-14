@@ -31,3 +31,5 @@
 16. sed 's/System Administrator/Administrador del Sistema/' users.txt
 
 17. sed 's/_//' users.txt
+
+18. sed 's/system/SISTEMA/' users.txt
