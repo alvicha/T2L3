@@ -13,3 +13,5 @@
 7. cat users.txt | grep -v ^[#] | cut -d: -f1
 
 8. cat users.txt | grep -v ^[#,_]
+
+9. cat users.txt | grep -v ^[#] | cut -d: -f3
