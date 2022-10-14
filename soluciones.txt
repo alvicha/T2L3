@@ -33,3 +33,5 @@
 17. sed 's/_//' users.txt
 
 18. sed 's/system/SISTEMA/' users.txt
+
+19. cat users.txt | grep -v ^[#] | cut -d: -f1,3,6 | sed 's/-/:/'
